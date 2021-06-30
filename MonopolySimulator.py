@@ -163,6 +163,8 @@ for i in range(num_players):
     curr_players.append(new_player)
     players_dict[i+1] = new_player
 
+
+# Change this
 if playsim == 's':
     for prop in properties:
         player = random.randint(1, num_players)
@@ -235,6 +237,7 @@ if playsim == 's':
                 print("\tMortgaged")
         print("")
     print("-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-\n")
+# Change this
 
 i = random.randrange(num_players)
 doubles = 0
